@@ -1,0 +1,5 @@
+{
+  "name": "AI Test Designer",
+  "description": "An application that transforms a User Story into a structured set of test cases and Cucumber BDD feature skeletons using AI.",
+  "requestFramePermissions": []
+}
