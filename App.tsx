@@ -313,7 +313,7 @@ const App: React.FC = () => {
     };
 
     return (
-        <div className="min-h-screen bg-gray-900 text-gray-200">
+        <div className="min-h-screen bg-gray-900 text-gray-200 flex flex-col">
             <header className="bg-gray-900/70 backdrop-blur-sm border-b border-gray-800 sticky top-0 z-10">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
                     <div className="flex items-center space-x-3">
@@ -323,7 +323,7 @@ const App: React.FC = () => {
                 </div>
             </header>
 
-            <main className="container mx-auto p-4 sm:p-6 lg:p-8">
+            <main className="container mx-auto p-4 sm:p-6 lg:p-8 flex-grow">
                 <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-8">
                     {/* Input Column */}
                     <div className="lg:sticky lg:top-20 self-start">
@@ -408,6 +408,9 @@ const App: React.FC = () => {
                     </div>
                 </div>
             </main>
+            <footer className="text-center p-4 text-gray-500 text-sm border-t border-gray-800 mt-auto">
+                <p>By Dr. Çağrı Ataseven</p>
+            </footer>
         </div>
     );
 };
